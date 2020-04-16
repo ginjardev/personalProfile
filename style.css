@@ -58,7 +58,7 @@ img {
 }
 #welcomediv {
     width: 70%;
-    height: 50vh;
+    height: auto;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0,    0, 0, 0.2);
     display: flex;
@@ -66,7 +66,7 @@ img {
 }
 #welcometxt {
     color: snow;
-    padding: 0.4rem;
+    padding: 0.6rem;
     margin: auto;
 }
 .imagediv {
@@ -80,14 +80,14 @@ img {
     width: inherit;
 }
 h1 {
-    font-size: 4vw;
+    font-size: 3.5rem;
 }
 h1 > span {
     color: rgb(0, 9, 128);
     font-weight: bolder;
 }
 h2 {
-    font-size: 2.5vw;
+    font-size: 2rem;
     color: snow;
 }
 h2 > span {
@@ -148,6 +148,7 @@ a {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
     width: 70%;
     height: auto;
+    text-align: center;
 }
 div > p {
     padding: 5px;
