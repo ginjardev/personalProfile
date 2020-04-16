@@ -3,7 +3,8 @@
     margin: 0;
 }
 body {
-    background: linear-gradient(to right, rgb(118, 36, 196), rgb(44, 78, 189));
+    /* background: linear-gradient(to right, rgb(118, 36, 196), rgb(44, 78, 189)); */
+    background-color: lightgrey;
     box-sizing: border-box;
     font-family: 'Baloo Paaji 2', cursive;
 }
@@ -63,6 +64,9 @@ img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0,    0, 0, 0.2);
     display: flex;
     justify-content: space-around;
+    background: linear-gradient(to right, rgb(118, 36, 196), rgb(44, 78, 189));
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 #welcometxt {
     color: snow;
@@ -114,6 +118,7 @@ a {
     width: 70%; 
     height: auto;
     text-align: center;
+    background: linear-gradient(to right, rgb(118, 36, 196), rgb(44, 78, 189));
 }
 #personaldetails {
     display: flex;
@@ -130,6 +135,7 @@ a {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
     width: 70%;
     height: auto;
+    background: linear-gradient(to right, rgb(118, 36, 196), rgb(44, 78, 189));
 }
 .biodata h2 {
     text-align: center;
@@ -149,13 +155,15 @@ a {
     width: 70%;
     height: auto;
     text-align: center;
+    background: linear-gradient(to right, rgb(118, 36, 196), rgb(44, 78, 189));
+    border-bottom-right-radius: 15px;
 }
 div > p {
     padding: 5px;
 }
 form {
     width: 80%;
-    border-radius: 10px;
+    border-bottom-right-radius: 10px;
     background-color: inherit;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
     background: linear-gradient(to left, rgb(118, 36, 196), rgb(44, 78, 189));
@@ -202,7 +210,9 @@ button {
 button:hover {
     background-color: rgb(9, 65, 9);
 }
-
+label {
+    text-align: left;
+}
 label > span {
     color: brown;
 }
@@ -211,6 +221,7 @@ footer {
     text-align: center;
     padding: 5px;
     width: 100%;
+    background: linear-gradient(to left, rgb(118, 36, 196), rgb(44, 78, 189));
 }
 footer p {
     font-size: inherit;
